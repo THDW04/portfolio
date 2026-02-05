@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | NV</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">NV</a>
+            </div>
+
+            <div class="burger-menu" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="realisation.html">Réalisations</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero reveal">
+            <p>On collabore ?</p>
+            <h1>Discutons de mon prochain stage.</h1>
+            <p>Disponible à partir du <strong>7 Avril 2026</strong> pour une durée de 2 à 3 mois.</p>
+        </section>
+
+        <section class="contact-info reveal">
+            <h2>Mes coordonnées</h2>
+            <span id="copy-feedback" style="opacity:0; transition:0.3s;"> </span>
+            <div id="btn-copy">
+                <p>Copier mon mail</p>
+                <p id="copy">nathaliavilasse@gmail.com</p>
+            </div>
+            <ul class="contact-links">
+                <li><a href="https://www.linkedin.com/in/nathalia-vilasse/" target="_blank">LinkedIn</a>
+                </li>
+                <li><a href="https://github.com/THDW04" target="_blank">GitHub</a></li>
+                <li><a href="assets/pdf/CV_Nathalia_VILASSE.pdf" class="btn-cv" download>Télécharger mon
+                        CV (PDF)</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="contact-form reveal" id="form">
+            <h2>Ou envoyez‑moi un message maintenant.</h2>
+            <form action="https://formspree.io/f/xgooewqb" method="POST">
+                <div>
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+                </div>
+
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Bonjour, je vous contacte pour un stage..."
+                        required></textarea>
+                </div>
+
+                <button type="submit" id="btn-submit">Envoyer le message</button>
+                <div id="form-status"></div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Nathalia Vilasse — Tous droits réservés</p>
+    </footer>
+
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        //Apparition à l'écran
+        gsap.registerPlugin(ScrollTrigger);
+
+        const intro = () => {
+            const sections = document.querySelectorAll('.reveal');
+
+            const tlIntro = gsap.timeline();
+
+            sections.forEach((section) => {
+                tlIntro.to(section, {
+                    autoAlpha: 1,
+                    y: 0,
+                    duration: 0.7,
+                    stagger: 0.03,
+                    ease: "power1.out",
+                });
+            })
+        };
+
+        document.addEventListener("DOMContentLoaded", intro);
+
+        //Copier mon mail
+        const btnCopy = document.getElementById("btn-copy");
+        const txtCopy = document.getElementById("copy");
+        const feedback = document.getElementById("copy-feedback");
+
+        btnCopy.addEventListener("click", () => {
+            navigator.clipboard.writeText(txtCopy.innerText)
+                .then(() => {
+                    feedback.textContent = "Copié !";
+                    feedback.style.opacity = "1";
+                    setTimeout(() => {
+                        feedback.style.opacity = "0";
+                        feedback.textContent = "";
+                    }, 1500);
+                });
+        })
+    </script>
+</body>
+
+</html>
