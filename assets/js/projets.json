@@ -1,0 +1,190 @@
+[
+  {
+    "id": "1",
+    "titre": "Avatar",
+    "soustitre": "Livret Filmique",
+    "date": "Octobre 2024 - Décembre 2024",
+    "collaboration": "Réalisé seule dans le cadre d'un projet étudiant",
+    "description": "Dans le cadre d'un projet éditorial, j'ai réalisé un livret pédagogique destiné aux lycéens en spécialités cinéma, autour du film Avatar de James Cameron. L'objectif était de décortiquer la démarche du réalisateur, analyser les choix narratifs, visuels et techniques.",
+    "competences": [
+      "Analyse filmique et rédaction de contenus pédagogiques clairs et structurés",
+      "Conception éditoriale avec hiérarchisation et organisation efficace de l’information",
+      "Mise en page et création graphique avec InDesign",
+      "Retouche et préparation d’images optimisées avec Photoshop",
+      "Création d’éléments graphiques et d’illustrations sur Illustrator"
+    ],
+    "langages": "",
+    "logiciels": "InDesign, Photoshop, Illustrator",
+    "lien": "../assets/pdf/livret_avatar.pdf",
+    "categorie": "Création",
+    "image": "../assets/img/livret.jpg",
+    "mag": "<iframe allowfullscreen='' allow='clipboard-write' scrolling='no' class='fp-iframe' style='border: 1px solid lightgray; width: 100%; height: 400px;' src='https://heyzine.com/flip-book/b04f962700.html'></iframe>",
+    "capsule": "../assets/img/item.png"
+  },
+  {
+    "id": "2",
+    "titre": "Ciel & Espace",
+    "soustitre": "Interview de journaliste de presse",
+    "date": "Novembre 2024 - Décembre 2024",
+    "collaboration": "Réalisé dans le cadre d'un projet étudiant",
+    "description": "Nous avons mené, en groupe de cinq, l'interview d'un journaliste de presse. Le projet s'est articulé autour de deux phases principales. La première étape, collective, a consisté à la rédaction et la sélection des questions, ainsi qu'à l'organisation du tournage avec une répartition des rôles (lumière, son, caméra). J'étais personnellement responsable de la gestion et de l'installation de l'éclairage sur le plateau. La seconde étape était individuelle, chaque membre réalisant son propre montage vidéo de l'interview.",
+    "competences": [
+      "Prise de contact et échange avec un professionnel",
+      "Rédaction de contenu journalistique",
+      "Collaboration et travail d’équipe sur l’organisation du tournage",
+      "Maîtrise de l'éclairage et de la lumière en contexte d'interview",
+      "Post-production vidéo : montage, étalonnage et mixage de l'interview"
+    ],
+    "langages": "",
+    "logiciels": "Adobe Première Pro",
+    "youtube": "<iframe width='1200' height='auto' src='https://www.youtube.com/embed/T1_Yoxrytbk?si=Ohhf07rENEqJqLFY' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>",
+    "categorie": "Audiovisuel",
+    "capsule": "../assets/img/item3.png"
+  },
+  {
+    "id": "3",
+    "titre": "Indexa",
+    "soustitre": "Un musée en ligne",
+    "date": "Avril 2025 - Juin 2025",
+    "collaboration": "Réalisé seule dans le cadre d'un projet étudiant",
+    "description": "Indexa est un site web interactif qui répertorie des œuvres d’art et leurs artistes. Les utilisateurs peuvent explorer les collections par catégories, siècles et genres, et y contribuer en ajoutant de nouvelles œuvres via un formulaire dédié.",
+    "competences": [
+      "Développement d’un site web dynamique connecté à une base de données",
+      "Conception et mise en place d’un formulaire permettant l’ajout d’œuvres",
+      "Intégration d’animations interactives avec JavaScript et la librairie GSAP",
+      "Utilisation de PHP pour filtrer et afficher les œuvres selon différents critères",
+      "Mise en œuvre de bonnes pratiques d’accessibilité (structure sémantique, contrastes, navigation claire)"
+    ],
+    "langages": "HTML, CSS, JavaScript, GSAP, PHP, MYSQL",
+    "logiciels": "Photoshop, Figma",
+    "lien": "https://webinventory.vilasse.projetsmmichamps.fr",
+    "categorie": "Développement Web",
+    "image": "../assets/img/indexa.png",
+    "capsule": "../assets/img/item5.jpg",
+    "videos": [
+      "../assets/videos/indexa/accueil.webm",
+      "../assets/videos/indexa/oeuvre-artiste.webm",
+      "../assets/videos/indexa/recherche.webm",
+      "../assets/videos/indexa/formulaire.webm"
+    ]
+  },
+  {
+    "id": "4",
+    "titre": "La voix du silence",
+    "date": "Mai 2025 - Juin 2025",
+    "collaboration": "Réalisé dans le cadre d'un projet étudiant",
+    "description": "En groupe, nous devions repenser la communication d’une association existante, LES REBECCAS, qui accompagne les parents d’enfants sourds. Le projet inclut le branding, la création du nom, le site web et la communication visuelle (vidéo, affiche). Pour ma part, j’ai pris en charge la mise en page et l’intégration du site sur WordPress, en veillant à respecter l’identité visuelle et les besoins de l’association.",
+    "competences": [
+      "Intégration et mise en page sur WordPress",
+      "Adaptation d’une identité visuelle existante",
+      "Structuration et organisation du contenu",
+      "Sensibilité UX et accessibilité"
+    ],
+    "langages": "",
+    "logiciels": "WordPress",
+    "lien": "https://lavoixdusilence.vilasse.projetsmmichamps.fr",
+    "categorie": "Développement Web",
+    "image": "../assets/img/lavoixdusilence.png",
+    "capsule": "../assets/img/item6.png",
+    "videos": [
+      "../assets/videos/lavoixdusilence/accueil.webm",
+      "../assets/videos/lavoixdusilence/nav.webm"
+    ]
+  },
+  {
+    "id": "5",
+    "titre": "Datafem",
+    "date": "Septembre 2025 - Novembre 2025",
+    "collaboration": "Réalisé en groupe dans le cadre d'un projet étudiant",
+    "description": "Datafem est un site one-page de data visualisation visant à analyser l’évolution de la représentation des femmes dans les milieux artistiques. Le site présente ces données sous forme de graphiques interactifs, organisés par année, afin de faciliter leur compréhension par les utilisateurs.",
+    "competences": [
+      "Récupération et structuration de données depuis Wikidata",
+      "Manipulation de fichiers JSON et chargement dynamique avec fetch",
+      "Création de visualisations interactives avec D3.js",
+      "Réalisation d’animations pour améliorer l’expérience utilisateur",
+      "Conception de graphiques interactifs centrés utilisateur"
+    ],
+    "langages": "HTML, CSS, JavaScript, D3.js",
+    "image": "../assets/img/datafem.png",
+    "lien": "https://thdw04.github.io/Datafem/",
+    "categorie": "Développement Web",
+    "capsule": "../assets/img/item8.png",
+    "videos": [
+      "../assets/videos/datafem/site.webm"
+    ]
+  },
+  {
+    "id": "6",
+    "titre": "Pop & Pose",
+    "date": "Octobre 2025 - Novembre 2025",
+    "collaboration": "Réalisé seule dans le cadre d'un projet étudiant",
+    "description": "J’ai conçu un blog en architecture MVC (Modèle-Vue-Contrôleur) avec gestion de trois types de tables : utilisateurs, articles et commentaires. Les utilisateurs peuvent s’inscrire, se connecter, poster des commentaires et gérer leur profil, tandis que le propriétaire du blog peut publier des articles, gérer les commentaires et les utilisateurs. L’interface permet également de consulter les derniers articles et d’accéder aux archives.",
+    "competences": [
+      "Conception d’une architecture MVC et structuration d’une base de données MySQL",
+      "Développement back-end en PHP",
+      "Développement front-end pour une interface utilisateur interactive et responsive",
+      "Gestion des droits utilisateurs  (authentification, sessions) et dynamique des contenus"
+    ],
+    "langages": "HTML, CSS, JavaScript, PHP, MYSQL",
+    "logiciels": "",
+    "lien": "https://blog.vilasse.projetsmmichamps.fr",
+    "categorie": "Développement Web",
+    "image": "../assets/img/popose.png",
+    "capsule": "../assets/img/item2.png",
+    "videos": [
+      "../assets/videos/popose/admin.mp4"
+    ],
+    "imgs": [
+      "../assets/img/popose/connexion.png",
+      "../assets/img/popose/archives.png",
+      "../assets/img/popose/article.png"
+    ]
+  },
+  {
+    "id": "7",
+    "titre": "La Gamelle",
+    "date": "Novembre 2025 - Janvier 2026",
+    "collaboration": "Réalisé en groupe dans le cadre d'un projet étudiant",
+    "description": "La Gamelle est une plateforme participative autour du thème de la cuisine, permettant aux utilisateurs de consulter, créer et partager des recettes. Au sein du groupe, j’ai travaillé sur la conception des maquettes sur Figma ainsi que sur le développement des pages Accueil, Profil utilisateur et Recette. Le projet a été développé en PHP selon une architecture MVC, avec l’ajout de plusieurs animations afin d’améliorer l’expérience utilisateur.",
+    "competences": [
+      "Conception d’interfaces et maquettage sur Figma",
+      "Développement web en PHP avec une architecture MVC",
+      "Intégration front-end (HTML, CSS, animations)",
+      "Création et structuration de pages dynamiques",
+      "Travail collaboratif sur un projet web participatif"
+    ],
+    "langages": "HTML, CSS, JavaScript, GSAP, PHP, MYSQL",
+    "logiciels": "",
+    "lien": "https://lagaamelle.fr",
+    "categorie": "Développement Web",
+    "image": "../assets/img/lagaamelle.png",
+    "capsule": "../assets/img/item7.png",
+    "videos": [
+      "../assets/videos/lagamelle/compte.webm",
+      "../assets/videos/lagamelle/recette.webm"
+    ],
+    "imgs": [
+      "../assets/img/lagamelle/aliment.png",
+      "../assets/img/lagamelle/veto.png"
+    ]
+  },
+  {
+    "id": "8",
+    "titre": "Monotonie",
+    "date": "Décembre 2025 - Janvier 2026",
+    "collaboration": "Réalisé dans le cadre d'un projet étudiant",
+    "description": "Monotonie est un court métrage de 1min30 mettant en scène un personnage évoluant entre un monde réel et un monde fictif. Le travail de groupe a porté sur l’écriture du scénario et le tournage. Le montage a ensuite été réalisé individuellement. Pour ce projet, j’ai assuré le montage vidéo sur DaVinci Resolve ainsi que les incrustations sur fond vert à l’aide d’After Effects. J’ai également conçu un son de transition original marquant le passage vers le monde fictif, réalisé sur Reaper.",
+    "competences": [
+      "Montage vidéo et narration visuelle",
+      "Incrustation sur fond vert et effets visuels",
+      "Utilisation de logiciels de post-production audiovisuelle",
+      "Création sonore et design de transition audio",
+      "Travail collaboratif et autonomie en production"
+    ],
+    "langages": "",
+    "logiciels": "DaVinci Resolve 20, After Effect",
+    "youtube": "<iframe width='560' height='315' src='https://www.youtube.com/embed/3mDyFIt_vlU?si=nAoN0yMHAJzddsu4' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>",
+    "categorie": "Audiovisuel",
+    "capsule": "../assets/img/item4.png"
+  }
+]

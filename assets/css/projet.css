@@ -1,0 +1,297 @@
+section {
+    padding: 30px;
+    display: grid;
+    font-size: 1rem;
+    min-height: 90vh;
+    gap: 30px;
+}
+
+.videos {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.infos *:not(h1, h2, ul, li) {
+    margin-bottom: 20px;
+}
+
+.visuel,
+iframe,
+.portfolio-video,
+.portfolio-img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.portfolio-video {
+    cursor: url('../img/cursor/attention.png'), pointer;
+}
+
+#item {
+    display: block;
+    width: 70px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    animation: spin 3s ease-in-out infinite;
+    z-index: 1;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    20% {
+        transform: rotate(15deg);
+    }
+
+    40% {
+        transform: rotate(-15deg);
+    }
+
+    60% {
+        transform: rotate(10deg);
+    }
+
+    80% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+h1 {
+    font-size: 3rem;
+    color: var(--bleu);
+}
+
+.infos div {
+    position: relative;
+    margin: 0;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#subtitle {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.4rem;
+}
+
+#collab {
+    font-style: italic;
+}
+
+.crea p,
+.dev p {
+    font-size: 1.1rem;
+}
+
+li {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.infos a,
+#suivant,
+#prev {
+    color: var(--noir);
+    margin-top: 25px;
+    display: block;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.infos a:hover {
+    color: var(--rouge);
+    font-style: italic;
+}
+
+#suivant,
+#prev {
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-left: auto;
+}
+
+#prev {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+#suivant:hover,
+#prev:hover {
+    cursor: url('../img/cursor/attention.png'), pointer;
+    text-decoration: underline;
+}
+
+.nav-projet {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+@media (min-width:768px) {
+
+    .visuel,
+    iframe,
+    .portfolio-img {
+        width: 80%;
+        height: auto;
+        border-radius: 15px;
+    }
+
+    .portfolio-video {
+        width: 80%;
+        height: 300px;
+        border-radius: 15px;
+    }
+
+    #item{
+        width: 100px;
+        right: 50px;
+        top: 30px;
+    }
+}
+
+@media (min-width:1024px) {
+
+    .visuel,
+    iframe {
+        width: 800px;
+        height: 500px;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    #subtitle {
+        font-size: 4.5rem;
+    }
+
+    .infos {
+        font-size: 1.2rem;
+    }
+
+    .crea p,
+    .dev p {
+        font-size: 1.3rem;
+    }
+
+    li {
+        margin-left: 60px;
+    }
+
+    .infos a {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width:1300px) {
+    section {
+        padding: 30px;
+        grid-template-columns: repeat(5, 1fr);
+        align-items: center;
+    }
+
+    #item {
+        top: 0;
+    }
+
+    .visuel,
+    iframe,
+    .portfolio-img {
+        width: 95%;
+        height: auto;
+    }
+
+    iframe {
+        height: 550px;
+    }
+
+    .portfolio-video {
+        width: 95%;
+        height: 400px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        bottom: 0px;
+    }
+
+    #subtitle {
+        font-size: 2rem;
+        width: 60%;
+    }
+
+    .infos {
+        font-size: 0.9rem;
+        width: 100%;
+        max-width: 800px;
+        grid-row: 1/2;
+        grid-column: 1/3;
+        position: sticky;
+        top: 80px;
+    }
+
+    .img,
+    .videos {
+        grid-column: 3/7;
+    }
+
+    .img {
+        grid-row: 1/2;
+    }
+
+    .crea p,
+    .dev p {
+        font-size: 1rem;
+    }
+
+    li {
+        margin-left: 30px;
+    }
+
+    .infos a {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width:1400px) {
+    .infos {
+        font-size: 1.2rem;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    #item {
+        width: 150px;
+    }
+}
+
+@media (min-width:1600px) {
+    .portfolio-video {
+        width: 95%;
+        height: 550px;
+    }
+}
+
+@media (min-width:1800px) {
+    iframe {
+        height: 750px;
+    }
+}
